@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox fx:id="MainButtons" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.MyBank.controller.ButtonsController">
+   <children>
+      <HBox alignment="TOP_CENTER" spacing="20.0">
+            <Button mnemonicParsing="false" onAction="#AddAccount" text="Add Account" />
+            <Button disable="true" mnemonicParsing="false" onAction="#RemoveAccount" text="Remove Account" />
+            <Button disable="true" mnemonicParsing="false" onAction="#Deposit" text="Deposit" />
+            <Button disable="true" mnemonicParsing="false" onAction="#Withdrawal" text="Withdrawal" />
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </HBox>
+   </children>
+</VBox>
